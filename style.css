@@ -34,7 +34,7 @@ body > header {
 }
 
 .header-content {
-  background-image: linear-gradient(to bottom, #7d1538 0%, #bc2c1a 30% 89%, #7fb7be 90%, #d3f3ee 90.5% 100%);
+  background-image: linear-gradient(to bottom, #7d1538 0%, #bc2c1a 30% 89%, #e1fef9 90%, #d3f3ee 90.5% 100%);
   height: 30px;
   flex-grow: 1;
   z-index: -1;
@@ -93,11 +93,13 @@ button.hc-button {
   padding: 12px;
 }
 
-/* main sections */
+/* non-header sections */
 
 .main-illust {
   height: 100vh;
   background-color: #d3f3ee;
+  color:#407379;
+  font-family: Radlush;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -135,4 +137,37 @@ footer {
   font-family: Radlush;
   font-weight: 500;
   font-size: 16px;
+}
+
+/* main-illust */
+
+header.mi-header {
+  font-weight: 1000;
+  font-size: 48px;
+}
+
+div.mi-points {
+  padding: 24px;
+}
+
+div.mi-points ul {
+  font-weight: 500;
+  font-size: 24px;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.mi-points ul > li {
+  padding: 20px;
+  flex-grow: 0;
+  flex-basis: 35vw;
+}
+
+li .icon img {
+  width: 11vw;
 }
