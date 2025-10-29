@@ -34,7 +34,7 @@ body > header {
 }
 
 .header-content {
-  background-image: linear-gradient(to bottom, #7d1538 0%, #bc2c1a 30% 90%, #d3f3ee 91% 100%);
+  background-image: linear-gradient(to bottom, #7d1538 0%, #bc2c1a 30% 89%, #7fb7be 90%, #d3f3ee 90.5% 100%);
   height: 30px;
   flex-grow: 1;
   z-index: -1;
@@ -91,4 +91,48 @@ button.hc-button {
   border-radius:8px;
   border: 5px;
   padding: 12px;
+}
+
+/* main sections */
+
+.main-illust {
+  height: 100vh;
+  background-color: #d3f3ee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-quotes {
+  height: 80vh;
+  background-color: #7fb7be;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-action {
+  height: 80vh;
+  background-color: #d3f3ee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mq-box {
+  width: 50vw;
+}
+
+footer {
+  display: flex;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #7d1538;
+  color: #DACC3E;
+  font-family: Radlush;
+  font-weight: 500;
+  font-size: 16px;
 }
