@@ -147,6 +147,7 @@ footer {
 header.mi-header {
   font-weight: 1000;
   font-size: 48px;
+  margin-bottom: 36px;
 }
 
 div.mi-points {
@@ -159,10 +160,10 @@ div.mi-points ul {
   list-style-type: none;
   padding: 0;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: stretch;
   flex-wrap: wrap;
-  gap: 70px;
+  gap: 100px;
 }
 
 .mi-points ul > li {
@@ -180,9 +181,9 @@ div.mi-points ul {
   -3px -3px 10px rgba(255, 255, 255, 0.7),
   3px 3px 10px rgba(0, 0, 0, 0.1);
   border-radius: 12px;
-  padding: 8px 20px;
+  padding: 20px;
 }
 
 li .icon img {
-  width: 11vw;
+  width: 9vw;
 }
