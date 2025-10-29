@@ -96,6 +96,12 @@ button.hc-button {
   padding: 12px;
 }
 
+button.hc-button:hover {
+  background-color: #d4b306;
+  color: #bc2c1a;
+  transition: 0.4s;
+}
+
 /* non-header sections */
 
 /* main-illust */
@@ -121,7 +127,7 @@ button.hc-button {
 }
 
 .main-action {
-  height: 80vh;
+  height: 60vh;
   background-color: #d3f3ee;
   display: flex;
   justify-content: center;
@@ -213,4 +219,65 @@ li .icon img {
   background-image: url('img/everaldo-coelho.jpg');
   background-attachment: fixed;
   background-size: cover;
+}
+
+/* main-action */
+
+.sign-up {
+  width: 70vw;
+  height: 20vh;
+  background-color: #407379;
+  color: #e1fef9;
+  box-shadow:
+  -4px -4px 10px rgba(255, 255, 255, 0.8),
+  3px 3px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  padding: 60px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.su-right {
+  font-size: 18px;
+  font-family: Radlush;
+  font-weight: 1000;
+  background-color: #407379;
+  color: #e1fef9;
+  box-shadow:
+  -3px -3px 10px rgba(255, 255, 255, 0.4),
+  3px 3px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 12px;
+  border: 0px;
+  padding: 10px;
+  flex: 1;
+}
+
+button.su-right:hover {
+  background-color: #d3f3ee;;
+  color: #407379;
+  transition: 0.4s;
+}
+
+.su-left {
+  flex: 3;
+}
+
+.su-main, .su-secondary {
+  font-size: 24px; font-family: 'Radlush'; font-weight: 500; color: #d3f3ee;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.su-main {
+  font-size: 36px;
+  font-weight: 1000;
+}
+
+.su-logo {
+  color: #d4b306;
+  font-size: 36px;
+  font-family: Sekaiwo;
 }
