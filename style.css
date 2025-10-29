@@ -3,12 +3,42 @@ body {
 }
 
 body > header {
-  background: url('img/img.svg') no-repeat center center / cover;
-  background-size: cover;
   height: 100vh;
   position: relative;
   display: flex;
   flex-direction: column;
+}
+
+.paint-ht {
+  background-color: #7d1538;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 7vh;
+  z-index: 0;
+  position: absolute;
+}
+
+.paint-hc {
+  background-image: linear-gradient(to bottom, #7d1538 0%, #bc2c1a 30% 89%, #e1fef9 90%, #d3f3ee 90.5% 100%);
+  height: 93vh;
+  top: 7vh;
+  left: 0;
+  width: 100%;
+  z-index: 0;
+  position: absolute;
+}
+
+.paint-svg {
+  background: url('img/img.svg') no-repeat center center / cover;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 1;
+  position: absolute;
 }
 
 .ht-navigation {
@@ -27,17 +57,19 @@ body > header {
 }
 
 .header-top {
-  background-color: #7d1538;
-  z-index: -1;
   display: flex;
   justify-content: space-between;
+  height: 68px;
+  position: relative;
+  z-index: 2;
 }
 
 .header-content {
-  background-image: linear-gradient(to bottom, #7d1538 0%, #bc2c1a 30% 89%, #e1fef9 90%, #d3f3ee 90.5% 100%);
-  height: 30px;
+  height: 932px;
   flex-grow: 1;
   z-index: -1;
+  position: relative;
+  z-index: 2;
 }
 
 .ht-logo {
@@ -56,6 +88,8 @@ body > header {
   font-family: Radlush;
   font-weight: 500;
 }
+
+
 
 .header-content section {
   padding-top: 10vh;
